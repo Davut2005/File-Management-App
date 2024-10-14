@@ -1,0 +1,82 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Shadcn Dropzone</title>
+    <meta
+      content="Ready to use File Upload Dropzone component, built with shadcn/ui and react-dropzone."
+      name="description">
+    <meta content="Shadcn Dropzone" property="og:title">
+    <meta
+      content="Ready to use File Upload Dropzone component, built with shadcn/ui and react-dropzone"
+      property="og:description">
+    <meta content="https://diragb.github.io/shadcn-dropzone/seo-card.png"
+      property="og:image">
+    <meta content="Shadcn Dropzone" property="twitter:title">
+    <meta
+      content="Ready to use File Upload Dropzone component, built with shadcn/ui and react-dropzone"
+      property="twitter:description">
+    <meta content="https://diragb.github.io/shadcn-dropzone/seo-card.png"
+      property="twitter:image">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- React and ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel for JSX support -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Shadcn Dropzone -->
+    <script src="https://unpkg.com/shadcn-dropzone@latest/dist/index.umd.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function App() {
+        return (
+          <div className="flex justify-center items-center flex-col gap-4 w-screen h-screen">
+            <div className="flex items-center flex-col gap-1">
+              <h1 className="text-4xl font-bold leading-tight">Shadcn Dropzone</h1>
+              <h4 className="text-gray-600 mb-3">Ready to use File Upload Dropzone component, built with shadcn/ui and react-dropzone.</h4>
+              <div className="flex flex-row gap-1">
+                <a href="https://www.npmjs.com/package/shadcn-dropzone" target="_blank">
+                  <img src="https://img.shields.io/badge/npm-shadcn--dropzone-brightgreen.svg?style=flat-square" />
+                </a>
+                <a href="https://www.npmjs.com/package/shadcn-dropzone" target="_blank">
+                  <img src="https://img.shields.io/npm/v/shadcn-dropzone.svg?style=flat-square" />
+                </a>
+                <a href="https://www.npmjs.com/package/shadcn-dropzone" target="_blank">
+                  <img src="https://img.shields.io/npm/dm/shadcn-dropzone.svg?style=flat-square" />
+                </a>
+                <a href="https://github.com/sponsors/diragb" target="_blank">
+                  <img src="https://img.shields.io/github/sponsors/diragb" />
+                </a>
+              </div>
+            </div>
+            <div className="w-96 h-fit mt-8">
+              <Dropzone />
+            </div>
+            <div className="absolute bottom-5 select-none">
+              <a
+                href="https://twitter.com/diragb"
+                target="_blank"
+                className="text-lg text-gray-300 font-medium hover:text-indigo-400 transition-all cursor-pointer"
+              >
+                Made by @diragb
+              </a>
+            </div>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+  </body>
+</html>
