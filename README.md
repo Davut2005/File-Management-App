@@ -1,4 +1,4 @@
-# Shadcn Dropzone
+# React Shadcn Dropzone
 
 [![npm](https://img.shields.io/badge/npm-shadcn--dropzone-brightgreen.svg?style=flat-square)](https://www.npmjs.com/package/shadcn-dropzone)
 [![npm version](https://img.shields.io/npm/v/shadcn-dropzone.svg?style=flat-square)](https://www.npmjs.com/package/shadcn-dropzone)
