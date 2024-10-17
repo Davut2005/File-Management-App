@@ -1,4 +1,4 @@
-# React Shadcn Dropzone
+# Shadcn Dropzone
 
 [![npm](https://img.shields.io/badge/npm-shadcn--dropzone-brightgreen.svg?style=flat-square)](https://www.npmjs.com/package/shadcn-dropzone)
 [![npm version](https://img.shields.io/npm/v/shadcn-dropzone.svg?style=flat-square)](https://www.npmjs.com/package/shadcn-dropzone)
@@ -75,5 +75,4 @@ Make sure you have TailwindCSS set up in your project, as this component relies 
 Check out [react-dropzone](https://www.npmjs.com/package/react-dropzone) for all the props.
 
 ## License
-MIT# File-Management-App
-# File-Management-App
+MIT
